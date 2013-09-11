@@ -6,5 +6,3 @@ It consists of an Android application that shows on a map (Google Maps) location
 
 The user is able to find particular places around him, save favourites, filter the categories of locations he is searching and calculate the best path.
 Locations are taken from an online database and contain information about the activity, opening hours and other useful information.
-
-In the "online" folder, you can find the server side that contains a CMS where to add new location (only for admins) and API accessible from the App.
