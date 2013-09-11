@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#3500ffff</color>
+<color name="sel_item">#FFCC33</color>
+<color name="titolo_campo">#8E2323</color>
+<color name="testo_campo">#FF7F24</color>
+</resources>

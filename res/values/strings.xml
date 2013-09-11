@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AndMaps</string>
+	<string name="app_description">AndMaps è un\'applicazione creata da Tommaso Sala e Giuliano Vesci nell\'ambito di un progetto di tesi per il Corso di Laurea in Ing. Informatica</string>
+	<string name="exit_label">Esci</string>
+	<string name="start_label">Inizia</string>
+	<string name="mylocation_label">Posizione GPS</string>
+	<string name="search_label">Cerca</string>
+	<string name="categories_label">Categorie</string>
+	<string name="favorites_label">Preferiti</string>
+	<string name="updater_title">AndMaps updater</string>
+	<string name="updater_text">Il database di AndMaps è obsoleto\ne necessita di essere aggiornato.\nPuoi eseguire l\'aggiornamento immediatamente o in seguito,\nma nel frattempo potresti\nriscontrare alcuni errori.</string>
+	<string name="update_text">Aggiorna</string>
+	<string name="cancel_text">Annulla</string>
+	<string name="ok_text">Ok</string>
+	<string name="search_text">Vai</string>
+	<string name="noresults_text">La ricerca non ha dato alcun risultato.</string>
+	<string name="noconnectivity_text">Connessione di rete non disponibile.</string>
+	<string name="invalidsearchterm_text">Termine di ricerca non valido.</string>
+	<string name="noselectionerror_text">Seleziona almeno una categoria.</string>
+<string name="currentposition_text">Posizione attuale</string>
+<string name="addedtofav_text">Aggiunto ai preferiti</string>
+<string name="deletedfromfav_text">Rimosso dai preferiti</string>
+<string name="nofavs_text">Nessun preferito memorizzato</string>
+<string name="outmilano_text">Posizione non valida (fuori Milano)</string>
+<string name="retry_text">Riprova</string>
+</resources>

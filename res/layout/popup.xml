@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingBottom="10dip">
+	<TableLayout
+		android:id="@+id/info_table"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/info_text"
+				android:layout_width="230dip"
+				android:layout_height="wrap_content"
+				android:padding="10dip"/>
+			<ImageView
+				android:id="@+id/trafficlight_image"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		</TableRow>
+	</TableLayout>
+	<TableLayout
+		android:id="@+id/table"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/info_table"
+		android:layout_centerHorizontal="true">
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button 
+				android:id="@+id/call_button"
+				android:drawableLeft="@drawable/call"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<Button 
+				android:id="@+id/addfav_button"
+				android:drawableLeft="@drawable/addfav"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />	
+			<Button 
+				android:id="@+id/delfav_button"
+				android:visibility="gone"
+				android:drawableLeft="@drawable/delfav"
+				android:layout_height="wrap_content" />
+			<Button 
+				android:id="@+id/route"
+				android:drawableLeft="@drawable/routefactory"
+				
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />	
+		</TableRow>
+	</TableLayout>
+	<Button
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/table"
+		android:id="@+id/close_button"
+		android:text="Chiudi"
+		android:layout_width="120dip"
+		android:layout_height="wrap_content"
+	/>
+
+</RelativeLayout>

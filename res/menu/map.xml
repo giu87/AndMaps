@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:enabled="true" android:visible="true" android:id="@+id/group"><item android:id="@+id/mylocation" android:title="@string/mylocation_label" android:enabled="true" android:visible="true" android:icon="@drawable/gps" android:checkable="false"></item><item android:enabled="true" android:visible="true" android:checkable="false" android:title="@string/search_label" android:id="@+id/search" android:icon="@drawable/binoculars"></item><item android:enabled="true" android:visible="true" android:checkable="false" android:icon="@drawable/pois" android:id="@+id/categories" android:title="@string/categories_label"></item><item android:enabled="true" android:visible="true" android:checkable="false" android:icon="@drawable/star" android:id="@+id/favorites" android:title="@string/favorites_label"></item>
+</group>
+</menu>
